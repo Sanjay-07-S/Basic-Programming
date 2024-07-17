@@ -2,7 +2,7 @@
 
 n = int(input("Entr the Number: "))
 for i in range(1, n+1):
-    if i>90:
+    if i>40:
         break
     print(i)
 
