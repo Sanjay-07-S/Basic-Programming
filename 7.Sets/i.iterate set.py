@@ -2,6 +2,6 @@
 
 Element = input("Enter the set element: ")
 
-set_element = set(Element)
-for element in range(set_element):
+set_element = set(Element.split())
+for element in (set_element):
     print(element)
